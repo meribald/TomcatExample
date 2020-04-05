@@ -3,7 +3,7 @@
 - Build with maven with the command `mvn clean install`.
 - Copy TomcatExample.war file from the "target" directory to {project dir}/src/docker directory.
 - Navigate to {prodect dir}/src/docker directory.
-- Run `docker build -t mywebapp`.
+- Run `docker build -t mywebapp .`.
   This command will download the official Tomcat 9.0 image and add TomcatExample.war file in that image.
 
 # How to run the container
